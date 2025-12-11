@@ -1,4 +1,4 @@
-def rotate_arr(arr, n):
+def rotate_arr_left(arr, n):
     length = len(arr)
 
     n = n % length
@@ -13,4 +13,4 @@ def rotate_arr(arr, n):
 
 arr1 = [3,5,3,6,2,8,45,9]
 n1 = 68
-print(rotate_arr(arr1, n1))
+print(rotate_arr_left(arr1, n1))
